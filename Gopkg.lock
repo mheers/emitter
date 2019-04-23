@@ -119,31 +119,6 @@
   version = "v1.0.0"
 
 [[projects]]
-  digest = "1:b9c2e21a967676d3b2011f9245568b052113a0b1b07324e33b992ab29b284974"
-  name = "github.com/emitter-io/emitter"
-  packages = [
-    "async",
-    "broker/cluster",
-    "collection",
-    "config",
-    "message",
-    "network/http",
-    "network/listener",
-    "network/mqtt",
-    "network/websocket",
-    "provider/contract",
-    "provider/logging",
-    "provider/monitor",
-    "provider/storage",
-    "provider/usage",
-    "security",
-    "security/hash",
-  ]
-  pruneopts = "UT"
-  revision = "5f045c723b457a08852f243e1c74e2b7612a6d1c"
-  version = "v2.0.521"
-
-[[projects]]
   digest = "1:57fe88ff6e5053da624e0ccd997e3f325195398db035f32488d7b001ccd42ead"
   name = "github.com/emitter-io/stats"
   packages = ["."]
@@ -181,14 +156,6 @@
   packages = ["."]
   pruneopts = "UT"
   revision = "c2b33e84"
-
-[[projects]]
-  digest = "1:0a4e87d658551ece5cc450a2f4a7c60f1f7656f128189e302c743ebf471797a6"
-  name = "github.com/karlseguin/ccache"
-  packages = ["."]
-  pruneopts = "UT"
-  revision = "a2d62155777b39595c825ed3824279e642a5db3c"
-  version = "v2.0.2"
 
 [[projects]]
   digest = "1:e5048eb9d05643b2aff2ceea65264dee8971dc7f2e6e3e0160cfb0f68a38eb67"
@@ -238,7 +205,7 @@
   version = "v1.2.1"
 
 [[projects]]
-  digest = "1:e2f24e19239259d4959e45f669e594e22a61bf8510e0bc2929daf756740ce6c7"
+  digest = "1:140b4d26596498c41f648547e23b198263a4d8c9a6faab4f113fab54280936ab"
   name = "github.com/mheers/emitter"
   packages = [
     "async",
@@ -262,8 +229,7 @@
     "security/hash",
   ]
   pruneopts = "UT"
-  revision = "5f045c723b457a08852f243e1c74e2b7612a6d1c"
-  version = "v2.0.521"
+  revision = "6e906fa489051991df65117f11c929ed5a364fc8"
 
 [[projects]]
   branch = "master"

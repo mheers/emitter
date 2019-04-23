@@ -62,10 +62,6 @@
   version = "1.0.0"
 
 [[constraint]]
-  name = "github.com/mheers/emitter"
-  version = "2.0.521"
-
-[[constraint]]
   name = "github.com/stretchr/testify"
   version = "1.3.0"
 
@@ -92,3 +88,7 @@
 [prune]
   go-tests = true
   unused-packages = true
+
+[[constraint]]
+  name = "github.com/mheers/emitter"
+  revision = "6e906fa489051991df65117f11c929ed5a364fc8"
