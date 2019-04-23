@@ -26,3 +26,7 @@ creds.json
 *.crt
 *.key
 data
+
+_vendor*
+vendor/
+

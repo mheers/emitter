@@ -12,7 +12,8 @@ $ find ./ -type f -print0 | xargs -0 sed -i 's/github.com\/emitter-io\/emitter\/
 
 # How to use?
 <pre>
-$ go get github.com/mheers/emitter
+$ go get github.com/mheers/emitter...
+$ dep ensure -add github.com/mheers/emitter
 </pre>
 
 then you can start the broker from your own Go-file:
@@ -43,6 +44,6 @@ func startEmitterSvc() {
 }
 
 func main() {
-    go startEmitterSvc()
+    startEmitterSvc()
 }
 </pre>
