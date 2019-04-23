@@ -2,9 +2,9 @@ FROM golang:alpine AS builder
 MAINTAINER Roman Atachiants "roman@misakai.com"
 
 # Copy the directory into the container.
-RUN mkdir -p /go/src/github.com/emitter-io/emitter/
-WORKDIR /go/src/github.com/emitter-io/emitter/
-ADD . /go/src/github.com/emitter-io/emitter/
+RUN mkdir -p /go/src/github.com/mheers/emitter/
+WORKDIR /go/src/github.com/mheers/emitter/
+ADD . /go/src/github.com/mheers/emitter/
 
 # Download and install any required third party dependencies into the container.
 RUN apk add --no-cache g++ \
